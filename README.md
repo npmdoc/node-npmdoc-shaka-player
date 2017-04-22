@@ -21,21 +21,93 @@
 ```json
 
 {
-    "name": "shaka-player",
-    "description": "DASH/EME video player library",
-    "version": "2.0.8",
-    "homepage": "https://github.com/google/shaka-player",
-    "author": "Google",
-    "maintainers": [
+    "author": {
+        "name": "Google"
+    },
+    "bugs": {
+        "url": "https://github.com/google/shaka-player/issues"
+    },
+    "contributors": [
         {
-            "name": "Joey Parrish"
+            "name": "AdsWizz"
+        },
+        {
+            "name": "Esteban Dosztal"
+        },
+        {
+            "name": "Google Inc."
+        },
+        {
+            "name": "Edgeware AB"
+        },
+        {
+            "name": "Itay Kinnrot"
+        },
+        {
+            "name": "Jason Palmer"
+        },
+        {
+            "name": "Jesper Haug Karsrud"
+        },
+        {
+            "name": "Johan Sundström"
+        },
+        {
+            "name": "Jonas Birmé"
+        },
+        {
+            "name": "Jozef Chúťka"
+        },
+        {
+            "name": "JW Player"
+        },
+        {
+            "name": "Lucas Gabriel Sánchez"
+        },
+        {
+            "name": "Mattias Wadman"
+        },
+        {
+            "name": "Nick Desaulniers"
+        },
+        {
+            "name": "Oskar Arvidsson"
+        },
+        {
+            "name": "Philo Inc."
+        },
+        {
+            "name": "Robert Colantuoni"
+        },
+        {
+            "name": "Roi Lipman"
+        },
+        {
+            "name": "Rostislav Hejduk"
+        },
+        {
+            "name": "SameGoal Inc."
+        },
+        {
+            "name": "Sanborn Hilland"
+        },
+        {
+            "name": "TalkTalk Plc"
+        },
+        {
+            "name": "Toshihiro Suzuki"
+        },
+        {
+            "name": "uStudio Inc."
         }
     ],
+    "dependencies": {},
+    "description": "DASH/EME video player library",
     "devDependencies": {
         "array-includes": "^3.0.2",
         "es6-shim": "^0.35.2",
         "esprima": "^3.1.3",
-        "htmlhint": "yaniswang/HTMLHint#152a114f",
+        "htmlhint": "github:yaniswang/HTMLHint#152a114f",
         "in-publish": "2.x",
         "jasmine-ajax": "3.3.x",
         "jasmine-core": "2.4.x",
@@ -56,18 +128,37 @@
         "sprintf-js": "1.x",
         "useragent": "^2.1.11"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "92b5a6fec77a60b371dc6b3f0b6cc78b6b86faf8",
+        "tarball": "https://registry.npmjs.org/shaka-player/-/shaka-player-2.0.8.tgz"
+    },
+    "gitHead": "0a65725d2d9090422191c9540f63ce5ce19a5305",
+    "homepage": "https://github.com/google/shaka-player",
+    "license": "Apache-2.0",
     "main": "dist/shaka-player.compiled.js",
+    "maintainers": [
+        {
+            "name": "ismena"
+        },
+        {
+            "name": "joeyparrish"
+        },
+        {
+            "name": "modmaker"
+        }
+    ],
+    "name": "shaka-player",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/google/shaka-player.git"
+        "url": "git+https://github.com/google/shaka-player.git"
     },
-    "bugs": {
-        "url": "https://github.com/google/shaka-player/issues"
-    },
-    "license": "Apache-2.0",
     "scripts": {
         "prepublish": "in-publish && python ./build/checkversion.py && python ./build/all.py || not-in-publish"
-    }
+    },
+    "version": "2.0.8",
+    "bin": {}
 }
 ```
 
